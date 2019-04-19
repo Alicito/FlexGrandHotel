@@ -306,13 +306,14 @@ body {
 .about-us-images {
   flex: 1 1;
   position: relative;
+  
 }
 
 .image {
   width: 32rem;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   border: .2rem solid #b85d1c;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
   border-radius: .4rem;
@@ -779,4 +780,94 @@ body {
   border: .1rem solid #b85d1c;
 }
 
-.
+@media(max-width: 1400px) {
+.customer-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.customer-card {
+  margin-bottom:1rem;
+}
+  
+
+}
+
+@media(max-width:1440px) {
+  .image {
+    width:25rem;
+  }
+}
+
+@media(max-width:1024px) {
+  .image {
+    width: 18rem;
+  }
+
+  .welcome-header {
+    
+    
+  }
+
+  .header {
+    padding-bottom: 10rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.footer-h2 {
+  font-size:3rem;
+}
+
+.footer-support-p {
+  font-size:2rem;
+}
+
+.footer-link {
+  
+  font-size:2rem;
+  margin-right: 1rem;
+}
+
+
+
+}
+
+@media(max-width:768px) {
+
+  .about-us-heading {
+    text-align: center;
+  }
+
+  .image {
+    width:20rem;
+    position: absolute;
+    margin-top:10rem;
+    
+  }
+
+  .about-us-images {
+    margin-top:1rem;
+    margin-left: 15rem;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 100%;
+    padding-bottom:35rem;
+  }
+
+  .welcome-h1 {
+    text-align: center;
+  }
+}
+
+
